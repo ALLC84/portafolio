@@ -1,4 +1,11 @@
-/* Animaciones */
+/*SVG--LOADING*/
+
+svg path,
+svg rect{
+  fill: black;
+}
+
+/* ANIMACIONES CAMBIO ENTRE PAGINAS */
 
 .animated {
   animation-duration: 1.5s;
