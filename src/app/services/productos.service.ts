@@ -13,6 +13,10 @@ export class ProductosService {
 
   }
 
+  public cargar_productos(cod: string) {
+    return this.http.get(`https://hd2golf-5bc44.firebaseio.com/productos/${cod}.json`)
+  }
+
   public cargar_producto() {
 
     this.cargando = true;
