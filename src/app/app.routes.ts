@@ -5,7 +5,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { 
     AboutComponent,
     PortafolioComponent,
-    ProductoComponent 
+    ProductoComponent,
+    BuscarComponent
 } from './components/index.paginas';
 
 
@@ -13,6 +14,7 @@ const app_routes: Routes = [
     { path: 'home', component: PortafolioComponent },
     { path: 'about', component: AboutComponent },
     { path: 'producto/:id', component: ProductoComponent },
+    { path: 'buscar/:termino', component: BuscarComponent },
     { path: '**', component: PortafolioComponent },
 
     //{ path: 'path/:routeParam', component: MyComponent },
